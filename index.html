@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Carota Canina – The Roman Dog Coin</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts: Fredoka One & Cinzel -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="roman-icon" aria-label="Roman Dog">🐕‍🦺</span>
+      <span>Carota Canina</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#tokenomics">Tokenomics</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#howtobuy">How to Buy</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open navigation menu">&#9776;</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="coin-container">
+      <img src="gWQefu7wUJz9azdmWQJQ--0--pxnc0.jpg" alt="Memecoin" class="coin-image" loading="lazy">
+    </div>
+    <div class="hero-badge">SPQR • MEME LEGION</div>
+    <div class="hero-content">
+      <h1>
+        <span class="hero-highlight">Carota Canina:</span>
+        The World’s First Roman Dog Coin
+      </h1>
+      <h2 class="latin">Veni, Vidi, Woofi.</h2>
+      <p class="hero-description">So legendary, even Julius Caesar would HODL.</p>
+      <button class="mint-btn" id="mintBtn">
+        <span class="carrot-icon">🥕</span>
+        Mint Now
+      </button>
+      <div id="fomo-message" aria-live="polite"></div>
+    </div>
+    <div class="hero-divider"></div>
+  </header>
+
+  <!-- Live Price Widget (Demo) -->
+  <section class="price-widget" id="price-widget">
+    <h3>Live $CAROTA Price</h3>
+    <div id="price-value">Loading...</div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2><span class="section-icon">📜</span> About</h2>
+    <p>
+      <strong>Carota Canina</strong> fuses meme culture with Roman history for a unique Solana crypto experience. Our mission: unite degens and history buffs in a legendary community.
+    </p>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Tokenomics Section -->
+  <section class="tokenomics" id="tokenomics">
+    <h2><span class="section-icon">💰</span> Tokenomics</h2>
+    <table>
+      <tr>
+        <th>Supply</th>
+        <td>1,000,000,000 $CAROTA</td>
+      </tr>
+      <tr>
+        <th>Taxes</th>
+        <td>0% buy / 0% sell</td>
+      </tr>
+      <tr>
+        <th>Utility</th>
+        <td>Meme contests, community rewards, more</td>
+      </tr>
+    </table>
+    <div class="token-chart" aria-label="Token Distribution Chart"></div>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section class="roadmap" id="roadmap">
+    <h2><span class="section-icon">🛡️</span> Roadmap</h2>
+    <ol>
+      <li>Launch & Meme Contest</li>
+      <li>DEX Listing on Solana</li>
+      <li>Community Growth</li>
+      <li>Merch Drop</li>
+      <li>Secret Roman Utility Reveal</li>
+    </ol>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <h2><span class="section-icon">🏺</span> Gallery</h2>
+    <div class="gallery-grid">
+      <figure class="gallery-item">
+        <img src="2GKk7izitdXb157rkkkg--0--2rihw.jpg" alt="Canina Denarius" loading="lazy">
+        <figcaption><strong>Canina Denarius</strong><br><em>Classic Roman dog coin</em></figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="WQArvKp5kqVa5JDz7mC1--0--pl00o.jpg" alt="Carota Antoninianus" loading="lazy">
+        <figcaption><strong>Carota Antoninianus</strong><br><em>Carrot-themed currency</em></figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="htw8pgZZvRubEbNR552J--0--gj576.jpg" alt="Carottavian Victoriatus" loading="lazy">
+        <figcaption><strong>Carottavian Victoriatus</strong><br><em>Victorious meme coin</em></figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="zLvaeQ7MnCyAj275KEVa--0--kkqit.jpg" alt="Canine Quadrigatus" loading="lazy">
+        <figcaption><strong>Canine Quadrigatus</strong><br><em>Four-dog chariot coin</em></figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/240x160/b8860b/fff?text=Carota+Canina+Bust" alt="Bust of Carota Canina" loading="lazy">
+        <figcaption><strong>Bust of Carota Canina</strong><br><em>Imperial meme legend</em></figcaption>
+      </figure>
+    </div>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <h2><span class="section-icon">❓</span> FAQ</h2>
+    <details>
+      <summary>What is Carota Canina?</summary>
+      <p>A meme coin on Solana inspired by Roman history and internet culture.</p>
+    </details>
+    <details>
+      <summary>How do I buy $CAROTA?</summary>
+      <p>See the "How to Buy" section below for step-by-step instructions.</p>
+    </details>
+    <details>
+      <summary>Is there a buy/sell tax?</summary>
+      <p>No. 0% buy/sell tax for all trades.</p>
+    </details>
+    <details>
+      <summary>Where can I join the community?</summary>
+      <p>Discord, Twitter, and Telegram links are in the Community section.</p>
+    </details>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- How to Buy (Solana Only) -->
+  <section class="howtobuy" id="howtobuy">
+    <h2><span class="section-icon">🪙</span> How to Buy</h2>
+    <ol>
+      <li><strong>Install a Solana wallet</strong> (Phantom, Solflare).</li>
+      <li><strong>Purchase SOL</strong> on an exchange (Coinbase, Binance, Kraken).</li>
+      <li><strong>Transfer SOL</strong> to your wallet.</li>
+      <li><strong>Connect your wallet</strong> to a Solana DEX (Jupiter, Raydium).</li>
+      <li><strong>Swap SOL for Carota Canina</strong> (Paste the official token address, select amount, complete swap).</li>
+      <li><strong>Done!</strong> Your $CAROTA tokens will appear in your wallet.</li>
+    </ol>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Community Section -->
+  <section class="community" id="community">
+    <h2><span class="section-icon">🏛️</span> Join the Community</h2>
+    <ul>
+      <li>Discord Challenge: Post your best dog memes—bonus points for Latin captions!</li>
+      <li>Twitter: Tweet #CarotaCanina and join the fun.</li>
+      <li>Telegram: Chat with fellow Romans and meme lords.</li>
+    </ul>
+    <div class="socials">
+      <a href="#" target="_blank" aria-label="Discord">Discord</a>
+      <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
+      <a href="#" target="_blank" aria-label="Telegram">Telegram</a>
+    </div>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2><span class="section-icon">✉️</span> Contact</h2>
+    <form class="contact-form" autocomplete="off">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="section-divider"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>© 2025 Carota Canina. All rights reserved.</div>
+    <div>Not financial advice. Memes only. SPQR.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Responsive Navbar
+    document.querySelector('.nav-toggle').onclick = function() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    };
+
+    // Animated Mint Button
+    const mintBtn = document.getElementById('mintBtn');
+    const fomoMsg = document.getElementById('fomo-message');
+    mintBtn.onclick = function() {
+      mintBtn.classList.add('clicked');
+      fomoMsg.textContent = "You minted! Welcome to the Meme Legion 🥕🐕‍🦺";
+      setTimeout(() => mintBtn.classList.remove('clicked'), 500);
+    };
+
+    // Simple Live Price Widget (Demo)
+    function fetchPrice() {
+      // Simulated random price for demo
+      const price = (Math.random() * 0.01 + 0.001).toFixed(6);
+      document.getElementById('price-value').textContent = `$${price} USD`;
+    }
+    fetchPrice();
+    setInterval(fetchPrice, 5000);
+  </script>
+</body>
+</html>
